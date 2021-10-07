@@ -1,0 +1,26 @@
+.home {
+  max-width: 100%;
+  margin: 0 auto;
+
+  &__body {
+    max-width: 100%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+
+    .navbar {
+      margin-bottom: 1rem;
+    }
+
+    .selection {
+      margin-bottom: 1rem;
+    }
+
+    &__cards {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 0 auto;
+      gap: 3rem;
+    }
+  }
+}
